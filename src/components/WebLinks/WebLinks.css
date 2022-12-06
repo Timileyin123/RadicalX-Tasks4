@@ -1,0 +1,37 @@
+.cat-body-2{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+height: 102px;
+}
+.cat-body-2 img{
+    color: black;
+}
+.pills, .pills-1{
+    display: flex;
+    flex-direction: row;
+    width: 131px;
+    height: 38px;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 16px;
+    gap: 6px;
+    border: 1px dashed #793EF5;
+    border-radius: 12px;
+    box-sizing: border-box;
+    margin-top: -1.2em;
+}
+.pills p, .pills-1 p{
+    font-family: "Space Grotesk";
+    font-weight: 500;
+    font-size: 15px;
+    color: #793EF5;
+    width: 61px;
+}
+.pills-1 {
+    width: 150px;
+}
+.pills-1 p{
+    width: 90px;
+}

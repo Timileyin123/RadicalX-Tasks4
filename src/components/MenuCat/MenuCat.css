@@ -1,0 +1,100 @@
+.MenuCat{
+    width:100%;
+    height: 896px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2em;
+}
+.MenuCat-1{
+    width: 46%;
+    gap: 16px;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    align-items: flex-end;
+}
+.MenuCat-2{
+    height: 280px;
+    margin-left: 40em;
+}
+.MenuCat-3, .MenuCat-4, .MenuCat-5{
+    height: fit-content;
+    background-color: #fff;
+    border-radius: 20px;
+    margin-left: 40em;
+    width: 50%;
+}
+.MenuCat-4{
+    padding-bottom: 5.9em;
+}
+.MenuCat-5{
+    height: 564px;
+}
+
+.assessment, .assessment-1, .assessment-2{
+    height: 56px;
+    width: 494px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 24px;
+    gap: 4px;
+    border: 1px dashed #793EF5;
+    border-radius: 12px;
+}
+.assessment .add{
+    padding-left: 11.5em;
+}
+.assessment-1{
+    width: 399px;
+    align-items: center;
+}
+
+.add{
+    width:106px;
+    height: 24px;
+    gap: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.add p{
+    color:#793EF5;
+    font-family: "Space Grotesk";
+    font-weight: 500;
+    padding-left: -1em;
+    text-align: center;
+}
+.cat-heading{
+    font-family: "Space Grotesk";
+    font-weight: 500;
+    font-size: 24px;
+}
+.cat-body{
+    height: 110px;
+    gap: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 0;
+    position: relative;
+}
+.cat-body .search{
+    width: 625px;
+    height: 48px;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    padding: 10px 16px;
+    gap: 8px;
+    background-color: #F1F4F8;
+    border: 1px solid #CECECE;
+    border-radius: 16px;
+    margin-top: -2em;
+    color: rgba(47, 48, 49, 0.54);
+}
+.cat-body img{
+    right: 10px;
+    bottom: 103px;
+}
